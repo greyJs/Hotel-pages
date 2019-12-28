@@ -1,0 +1,82 @@
+
+
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+body {
+  display: block;
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto; }
+
+.header {
+  display: flex;
+  margin: 0 auto;
+  align-items: center; }
+  .header__button {
+    width: 87px;
+    height: 34px;
+    border-radius: 22px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #BC9CFF;
+    background-color: #fff;
+    border-color: #BC9CFF;
+    outline: none; }
+    .header__button_registration {
+      width: 196px;
+      height: 34px;
+      border-radius: 22px;
+      background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 15px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      justify-content: flex-end;
+      outline: none; }
+  .header__menu {
+    display: flex;
+    list-style-type: none;
+    margin-left: 285px;
+    font-family: Montserrat;
+    ont-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(31, 32, 65, 0.5); }
+    .header__menu-about {
+      margin-right: 20px; }
+    .header__menu-service {
+      margin-right: 4px; }
+    .header__menu-job {
+      margin-right: 20px; }
+    .header__menu-news {
+      margin-right: 20px; }
+    .header__menu-agreement {
+      margin-right: 4px; }
+  .header__logo {
+    height: 40px;
+    margin-left: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+
+.suffix {
+  display: flex;
+  font-size: 24px;
+  line-height: 20px;
+  align-items: center;
+  margin-right: 20px; }
+
+.middle {
+  display: flex;
+  width: 1534px;
+  height: 1022px;
+  background: #373737 url(/images/page.jpg) center no-repeat;
+  background: transperent;
+  background-size: cover; }
+
